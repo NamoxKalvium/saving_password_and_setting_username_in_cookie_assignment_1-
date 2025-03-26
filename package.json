@@ -1,8 +1,12 @@
 {
   "scripts": {
-    "start": "servor --reload"
+    "start": "servor --reload",
+    "dev": "nodemon script.js"
   },
   "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
     "servor": "^4.0.2"
   }
 }
